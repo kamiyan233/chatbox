@@ -1,6 +1,6 @@
 ### 说明
 - 一个h5单对单聊天demo,服务端用nodejs，socket.io, 服务端代码mongo和redis地址删除掉了，简单的逻辑都在。客户端用vue3写的demo。
-### <a href='https://kamiyan.icu/chatbox/login'>demo</a>
+### <a href='https://kamiyan.icu/chatbox/login'>demo</a> 可以用不同的浏览器测试
 
 
 ### 功能说明 具体请看demo
@@ -9,3 +9,13 @@
 - 3.未读消息以气泡形式显示在头像，所有未读消息数量显示在底部
 - 4.修改头像
 - 5.用户列表会显示最新收到的一条消息
+
+### 测试账号 也可以注册
+
+| 账号 | 密码 |
+| :-----| ----: |
+| test01 | 123456 |
+| test02 | 123456 |
+| test03 | 123456 |
+| test04 | 123456 |
+| test05 | 123456 |
