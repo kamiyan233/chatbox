@@ -321,7 +321,7 @@ export default {
       // document.querySelector('.chatBox-content li:last-child').scrollIntoView()
       // this.$refs.chatBoxContent.scrollIntoView()
       // this.socket.emit('message',{msg:this.text})
-      // this.text = '
+      state.message = ''
     }
     const allNewMsgNum = computed(()=>{
       const {friendList} = state
