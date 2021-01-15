@@ -33,8 +33,8 @@ import {setToken} from '@/core/apis'
 export default {
     data(){
         return{
-            username:'kamiyan',
-            password:'123456',
+            username:'',
+            password:'',
             longLoginChecked:false
         }
     },
