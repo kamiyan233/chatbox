@@ -1,0 +1,29 @@
+@charset 'utf-8';
+// 全局css
+$f12:12px;
+$f14:14px;
+$f15:15px;
+$f16:16px;
+$cubic:cubic-bezier(0.4, 0, 0, 1);
+$transition_all:all 0.3s $cubic;
+$main-border-aaa:1px solid #aaa;
+$main-border-eee:1px solid #eee;
+
+$gray:#717171;
+$yellow:#dead74;
+$blue:#66ccff;
+$content-width:80%;
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 背景图 */ 
+@mixin back-img($url,$size) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: $size;
+}
